@@ -1,0 +1,380 @@
+body {display: flex;
+    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+background-color: black;}
+
+.lateral {
+    top: 0px;
+    width: 13%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#titulo {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 34px;
+    padding-bottom: 21px;
+}
+
+.lista {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: .8rem;
+    padding-left: 30px;
+    padding-top: 18px
+}
+
+#principal {
+    display: flex;
+    width: 87%;
+    height: 100vh;
+    background-image:url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 40%);
+    background-blend-mode: multiply;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome { height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+line-height: 1.7;
+
+}
+
+#welcome h1 { font-family: "Oswald", sans-serif;
+font-weight: 400;
+font-size: 64px;}
+
+#welcome p{ width: 60%;
+text-align: center;
+font-family: "Quicksand", sans-serif;
+font-size: 20px;}
+
+#welcome a {display: inline-block;
+color: white;
+text-decoration: none;
+font-family: "Quicksand",sans-serif;
+width: 163px;
+height: 53px;
+background-color: #df0e62;
+text-align: center;
+border-radius: 30px;
+line-height: 53px;
+font-weight: 700;
+margin-top: 30px;}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-left: 12%;
+}
+
+#fotos {
+    width: 32.7%;
+    height: 300px;
+    object-fit: cover;
+    vertical-align: middle;
+    max-width: 100%;
+    margin: 5px;
+}
+
+#testimonial {
+    display:flex;
+    width: 87%;
+    height: 50vh;
+    font-family: "Quicksand", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    color: white;
+}
+
+#titulotestimonio {
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+    text-align:center;
+    padding-left: 550px;
+    padding-top: 100px;
+}
+#testimonial p{
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 550px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#person2 {
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+#testimonial h2{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 530px;
+}
+
+.Biography {
+    height: 1500px;
+    width: 100%;
+    background-color: #1b1b1b;
+    margin-top: 370px;
+    color: white;
+}
+
+#titulobiografia {
+    font-family: "Oswald", sans-serif;
+    font-size: 65px;
+    text-align:center;
+    margin-top: 110px;
+    margin-right: 230px;
+}
+
+#person3 {
+    margin-top: 60px;
+    margin-left: 690px;
+    width: 400px;
+    height: 400px;
+}
+
+#jed {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-left: 690px;
+}
+
+#biografia p {
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 690px;
+}
+
+#photographer {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    margin-top: 45px;
+    margin-left: 690px;
+}
+
+#listabiografia {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-height: 1;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 690px;
+}
+
+#listabiografiadireita {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: gray;
+    margin-left: 1300px;
+}
+
+#Blog {
+    background-color: black;
+    width: 100%;
+    height: 2500px;
+}
+
+#blogtitulo {
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 280px;
+    margin-right: 350px;
+    color: white;
+}
+
+#noticias {
+    width: 1000px;
+    height: 920px;
+    margin-left: 650px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#bloco {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+#blog1 {
+    height: 200px;
+    width: 250px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    object-fit: cover;
+}
+
+#textonoticias {
+    width: 68%;
+    height: 196px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#titulonoticia {
+    padding-left: 350px;
+    padding-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+#autor {
+    color: gray;
+    padding-left: 350px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+}
+
+#conteudonoticia {
+    padding-left: 350px;
+    padding-top: 25px;
+    color: gray;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.Contact {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#formulario {
+    width: 800px;
+    height: 550px;
+    margin-left: 700px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#nomes {
+    width: 800px;
+    height: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    gap: 300px;
+    margin-top: 20px;
+}
+
+#linha {
+    width: 800px;
+    border-style: solid;
+    border-color: gray;
+    height: 0.1px;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    gap: 300px;
+    margin-top: 60px
+}
+
+#mensagem {
+    width: 800px;
+    height: 20px;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    gap: 30px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#linha2 {
+    width: 800px;
+    border-style: solid;
+    border-color: gray;
+    height: 0.5px;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    gap: 300px;
+    margin-top: 185px;
+}
+
+#botao2 {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-weight: bold;
+    height: 53px;
+    background-color: #df0e62;
+    align-items: center;
+    border-radius: 30px;
+    width: 164px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left:700px;
+}
+
+#titulocontact {
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 870px;
+    margin-left: 690px;
+    color: white;
+}
+
+#write{
+    color: gray;
+}
